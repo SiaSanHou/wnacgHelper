@@ -1,0 +1,29 @@
+{
+  "name": "WnacgHelper",
+  "description": "Watching hentai more easily",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/n_img16.png",
+      "32": "/images/n_img32.png",
+      "48": "/images/n_img48.png",
+      "128": "/images/n_img128.png"
+    }
+  },
+  
+  "icons": {
+    "16": "/images/n_img16.png",
+    "32": "/images/n_img32.png",
+    "48": "/images/n_img48.png",
+    "128": "/images/n_img128.png"
+  },
+  "homepage_url": "https://github.com/luke3359767/nhentaiHelper"
+  
+
+}
